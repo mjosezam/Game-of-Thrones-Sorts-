@@ -30,14 +30,14 @@ public class Proyectil extends Entidad{
 	 */
 	public Proyectil(Game game, float x, float y) {
 		super(game, x, y);
-		this.hitbox = new Rectangle((int)getX(),(int)getY(),getAncho(),getAlto());
+		this.hitbox = new Rectangle((int)getX(),(int)getY(),getAncho()-70,getAlto()-80);
 	}
 	/**
 	 * Actualiza sus variables
 	 */
 	@Override
 	public void update() {
-		this.hitbox = new Rectangle((int)getX(),(int)getY(),getAncho(),getAlto());
+		this.hitbox = new Rectangle((int)getX(),(int)getY(),getAncho()-70,getAlto()-80);
 		xMove = 0;
 		move();
 	} 
@@ -47,6 +47,7 @@ public class Proyectil extends Entidad{
 	 */
 	public void render(Graphics g) {
 		g.drawImage(Assets.fireball, (int)x, (int)y, null);
+		g.drawRect((int)hitbox.getX(),(int)hitbox.getY(),(int)hitbox.getWidth(),(int)hitbox.getHeight());
 	}
 	/**
 	 * Mueve la bala

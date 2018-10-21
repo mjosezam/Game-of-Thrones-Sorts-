@@ -25,7 +25,7 @@ public class Dragon extends Creature {
 		this.ID = ID;
 		this.salud = 3;
 		this.velocidad = 3;
-		this.hitbox = new Rectangle((int)getX()+100,(int)getY()+100,getAncho(),getAlto());
+		this.hitbox = new Rectangle((int)getX(),(int)getY(),getAncho(),getAlto()-30);
 	}
 	
 	public String getID() {
@@ -52,7 +52,7 @@ public class Dragon extends Creature {
 		return hitbox;
 	}
 	public void updateHitbox() {
-	this.hitbox = new Rectangle((int)getX()+100,(int)getY()+100,getAncho(),getAlto());
+	this.hitbox = new Rectangle((int)getX(),(int)getY(),getAncho(),getAlto()-30);
 	}
 
 	@Override
@@ -73,18 +73,19 @@ public class Dragon extends Creature {
 	@Override
 	public void render(Graphics g) {
 		g.drawImage(sprites[this.contador],(int)x,(int)y,getAncho(),getAlto(),null);
+		g.drawRect((int)hitbox.getX(),(int)hitbox.getY(),(int)hitbox.getWidth(),(int)hitbox.getHeight());
 	}
 	private void moverBot() {
 		if (contadorIteracion%40==0) {
 			if (subir) {
-				movimientoY=velocidad;
-				if (contador%100==0) {
+				movimientoY=1;
+				if (contador%1000==0) {
 					subir = false;
 				}
 			}
 			else {
-				movimientoY=-velocidad;
-				if (contador%100==0) {
+				movimientoY=-1;
+				if (contador%1000==0) {
 					subir = true;
 				}
 			}

@@ -1,7 +1,6 @@
 package Logica;
 
 import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.awt.image.BufferStrategy;
 
 
@@ -9,6 +8,8 @@ import java.awt.image.BufferStrategy;
 import Estados.Estado;
 import Estados.Estado_Juego;
 import Estados.Estado_Menu;
+import audio.AudioPlayer;
+import audio.Music;
 import graficos.Assets;
 import graficos.Display;
 import graficos.Fondo;
@@ -42,7 +43,7 @@ public class Game implements Runnable {
 		this.ancho = ancho;
 		this.alto = alto;
 		this.titulo = titulo;
-		
+		//new AudioPlayer(this, "Sonidos/musicaFondo.mp3").start();
 		manejoControles = new Controles();
 		
 		
@@ -51,7 +52,6 @@ public class Game implements Runnable {
 		display = new Display(titulo,ancho,alto);
 		display.getFrame().addKeyListener(manejoControles);//
 		Assets.init();//inicializa todas las imagenes 1 vez
-		
 		estadoJuego = new Estado_Juego(this);
 		estadoMenu = new Estado_Menu(this);
 		Estado.setEstado(estadoJuego);//se establece el estado que se quiere
@@ -61,6 +61,7 @@ public class Game implements Runnable {
 	
 	private void update() {//actualiza en el estado en el que se encuentre
 		manejoControles.update();//actualiza al jugador de acuerdo a sus controles
+		
 		if (Estado.getEstado()!=null) {
 			Estado.getEstado().update();
 		}
@@ -85,7 +86,7 @@ public class Game implements Runnable {
 	}
 	public void run() { //
 		init();
-		//new Fondo(display).start();
+		
 		int fps = 60;
 		double timePerTick = 1000000000/fps;//cuantas veces se quiere que se actualice en 1 segundo
 		double delta = 0;//tiempo que queda antes de actualizar nuevamente

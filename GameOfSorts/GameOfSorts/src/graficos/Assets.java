@@ -10,11 +10,11 @@ public class Assets {
 	private static final int anchoD1 = 183;
 	private static final int altoD1 = 141;
 	//dimensiones dragon 2
-	private static final int anchoD2 = 175;
-	private static final int altoD2 = 106;
+	private static final int anchoD2 = 143;
+	private static final int altoD2 = 83;
 	//dimensiones dragon 3
-	private static final int anchoD3 = 174;
-	private static final int altoD3 = 218;
+	private static final int anchoD3 = 132;
+	private static final int altoD3 = 103;
 	
 	public static BufferedImage heart,hud,fireball,celeste,cielo,Hud;
 	public static BufferedImage[] jugadorVolando;
@@ -60,12 +60,12 @@ public class Assets {
 		dragon2[1] = hoja3.cortarImagen(anchoD2,0, anchoD2, altoD2);
 		dragon2[2] = hoja3.cortarImagen(anchoD2*2,0, anchoD2, altoD2);
 		dragon2[3] = hoja3.cortarImagen(anchoD2*3,0, anchoD2, altoD2);
-		dragon2[4] = hoja3.cortarImagen(anchoD2*4,0, anchoD2, altoD2);
+		dragon2[4] = hoja3.cortarImagen(572,0, 100, altoD2);
 				
 		dragon3[0] = hoja4.cortarImagen(0, 0, anchoD3, altoD3);
 		dragon3[1] = hoja4.cortarImagen(anchoD3,0, anchoD3, altoD3);
-		dragon3[2] = hoja4.cortarImagen(anchoD3*2,0, anchoD3, altoD3);
-		dragon3[3] = hoja4.cortarImagen(anchoD3*3,0, anchoD3, altoD3);
-		
+		dragon3[2] = hoja4.cortarImagen(anchoD3*2+2,0, anchoD3, altoD3);
+		dragon3[3] = hoja4.cortarImagen(405,0, 139, altoD3);
+		dragon3[4] = hoja4.cortarImagen(545,0, 124, altoD3);
 	}
 }

@@ -48,6 +48,7 @@ public class Jugador extends Creature{
 	@Override
 	public void render(Graphics g) {
 		g.drawImage(Assets.jugadorVolando[this.contador],(int)x,(int)y,getAncho(),getAlto(),null);
+		g.drawRect((int)hitbox.getX(),(int)hitbox.getY(),(int)hitbox.getWidth(),(int)hitbox.getHeight());
 		controlDisp.update(g);
 	}
 	public void updateHitbox() {
@@ -84,7 +85,7 @@ public class Jugador extends Creature{
 		}
 		if(juego.getControles().space) {
 				if(puedeDisparar==true){
-				controlDisp.addProyectil(this.x+155, this.y+75);
+				controlDisp.addProyectil(this.x+75, this.y+70);
 				puedeDisparar=false ;
 				}
 			}

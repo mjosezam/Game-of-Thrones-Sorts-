@@ -32,10 +32,12 @@ public class Estado_Juego extends Estado {
 		this.jugador = new Jugador(juego,100,100, cd);
 		this.fabDrag = new FabricaDragones(juego);
 		this.fondo = new Fondo(juego, 0, 0);
-		for (int i=1;i<3;i++) {
-			fabDrag.nuevoDragon(i, "A", i*500,500 ); 
+		for (int i=500;i<1500;i+=200) {
+			for (int j=200; j<1000;j+=100) {
+			fabDrag.nuevoDragon(i%3, "A", i,j ); 
 		}
 	}
+}
 	
 	public void colisionProyectil() {//cuando el proyectil se sale de la pantalla se borra
 		for(Nodo<Proyectil> p = cd.listaProyectil.getPrimero(); p != null; p = p.getSiguiente()) {
@@ -93,6 +95,7 @@ public class Estado_Juego extends Estado {
 	public void render(Graphics g) {
 		updateFondo(g);
 		g.drawImage(Assets.cielo,xFondo,0,null);
+		g.drawImage(Assets.heart,100,100,null);
 		for (Nodo <Dragon> d = fabDrag.lista.getPrimero(); d != null; d = d.getSiguiente()) {
 			d.getValor().render(g);
 		}
