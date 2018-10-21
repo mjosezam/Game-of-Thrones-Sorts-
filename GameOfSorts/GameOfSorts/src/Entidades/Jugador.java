@@ -52,7 +52,7 @@ public class Jugador extends Creature{
 		controlDisp.update(g);
 	}
 	public void updateHitbox() {
-		this.hitbox = new Rectangle((int)getX(),(int)getY(),80,20);
+		this.hitbox = new Rectangle((int)getX(),(int)getY()+25,100,50);
 		}	
 	private void getInput() {
 		movimientoX = 0;

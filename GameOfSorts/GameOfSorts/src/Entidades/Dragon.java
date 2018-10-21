@@ -76,6 +76,7 @@ public class Dragon extends Creature {
 		g.drawRect((int)hitbox.getX(),(int)hitbox.getY(),(int)hitbox.getWidth(),(int)hitbox.getHeight());
 	}
 	private void moverBot() {
+		movimientoX=-5;
 		if (contadorIteracion%40==0) {
 			if (subir) {
 				movimientoY=1;
