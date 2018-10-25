@@ -56,22 +56,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -114,11 +114,51 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Estructuras/DragonsFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-432">
               <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Estructuras/BTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#720#750#0" expanded="true" />
+                <element signature="e#14534#14535#0" expanded="true" />
+                <element signature="e#14561#14562#0" expanded="true" />
+                <element signature="e#17704#17705#0" expanded="true" />
+                <element signature="e#17761#17762#0" expanded="true" />
+                <element signature="e#17844#17845#0" expanded="true" />
+                <element signature="e#17894#17895#0" expanded="true" />
+                <element signature="e#18261#18262#0" expanded="true" />
+                <element signature="e#18340#18341#0" expanded="true" />
+                <element signature="e#18740#18741#0" expanded="true" />
+                <element signature="e#18782#18783#0" expanded="true" />
+                <element signature="e#20164#20165#0" expanded="true" />
+                <element signature="e#20203#20204#0" expanded="true" />
+                <element signature="e#21955#21956#0" expanded="true" />
+                <element signature="e#21998#21999#0" expanded="true" />
+                <element signature="e#24674#24675#0" expanded="true" />
+                <element signature="e#24714#24715#0" expanded="true" />
+                <element signature="e#24820#24821#0" expanded="true" />
+                <element signature="e#24866#24867#0" expanded="true" />
+                <element signature="e#24980#24981#0" expanded="true" />
+                <element signature="e#25040#25041#0" expanded="true" />
+                <element signature="e#25156#25157#0" expanded="true" />
+                <element signature="e#25210#25211#0" expanded="true" />
+                <element signature="e#25306#25307#0" expanded="true" />
+                <element signature="e#25348#25349#0" expanded="true" />
+                <element signature="e#25466#25467#0" expanded="true" />
+                <element signature="e#25530#25531#0" expanded="true" />
+                <element signature="e#25870#25885#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -246,15 +286,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -280,6 +311,7 @@
         <option value="$PROJECT_DIR$/src/Estructuras/SimpleList.java" />
         <option value="$PROJECT_DIR$/src/Estructuras/DataNode.java" />
         <option value="$PROJECT_DIR$/src/Estructuras/DragonsFactory.java" />
+        <option value="$PROJECT_DIR$/src/Estructuras/BTree.java" />
       </list>
     </option>
   </component>
@@ -394,7 +426,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540446203278" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540446807658" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
@@ -768,6 +800,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-432">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Estructuras/BTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#720#750#0" expanded="true" />
+            <element signature="e#14534#14535#0" expanded="true" />
+            <element signature="e#14561#14562#0" expanded="true" />
+            <element signature="e#17704#17705#0" expanded="true" />
+            <element signature="e#17761#17762#0" expanded="true" />
+            <element signature="e#17844#17845#0" expanded="true" />
+            <element signature="e#17894#17895#0" expanded="true" />
+            <element signature="e#18261#18262#0" expanded="true" />
+            <element signature="e#18340#18341#0" expanded="true" />
+            <element signature="e#18740#18741#0" expanded="true" />
+            <element signature="e#18782#18783#0" expanded="true" />
+            <element signature="e#20164#20165#0" expanded="true" />
+            <element signature="e#20203#20204#0" expanded="true" />
+            <element signature="e#21955#21956#0" expanded="true" />
+            <element signature="e#21998#21999#0" expanded="true" />
+            <element signature="e#24674#24675#0" expanded="true" />
+            <element signature="e#24714#24715#0" expanded="true" />
+            <element signature="e#24820#24821#0" expanded="true" />
+            <element signature="e#24866#24867#0" expanded="true" />
+            <element signature="e#24980#24981#0" expanded="true" />
+            <element signature="e#25040#25041#0" expanded="true" />
+            <element signature="e#25156#25157#0" expanded="true" />
+            <element signature="e#25210#25211#0" expanded="true" />
+            <element signature="e#25306#25307#0" expanded="true" />
+            <element signature="e#25348#25349#0" expanded="true" />
+            <element signature="e#25466#25467#0" expanded="true" />
+            <element signature="e#25530#25531#0" expanded="true" />
+            <element signature="e#25870#25885#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
