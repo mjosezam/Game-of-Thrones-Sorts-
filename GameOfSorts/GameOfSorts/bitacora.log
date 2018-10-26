@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666051</millis>
+  <sequence>0</sequence>
+  <logger>bitacora.Bitacora</logger>
+  <level>INFO</level>
+  <class>Logica.Launcher</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicia partida</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666073</millis>
+  <sequence>1</sequence>
+  <logger>bitacora.Bitacora</logger>
+  <level>INFO</level>
+  <class>Logica.Launcher</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Llamadas a los componentes del sistema</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666075</millis>
+  <sequence>2</sequence>
+  <logger>bitacora.Bitacora</logger>
+  <level>INFO</level>
+  <class>Logica.Launcher</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Probando manejo de excepciones</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666076</millis>
+  <sequence>3</sequence>
+  <logger>bitacora.Bitacora</logger>
+  <level>SEVERE</level>
+  <class>Logica.Launcher</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.Exception: ERROR DE CONTROL DE FLUJO DE PROGRAMA
+	at Logica.Launcher.main(Launcher.java:72)
+</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666851</millis>
+  <sequence>4</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666852</millis>
+  <sequence>5</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666853</millis>
+  <sequence>6</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666854</millis>
+  <sequence>7</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666855</millis>
+  <sequence>8</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666856</millis>
+  <sequence>9</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666857</millis>
+  <sequence>10</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666857</millis>
+  <sequence>11</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666858</millis>
+  <sequence>12</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666858</millis>
+  <sequence>13</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666859</millis>
+  <sequence>14</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666859</millis>
+  <sequence>15</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666860</millis>
+  <sequence>16</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666860</millis>
+  <sequence>17</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666861</millis>
+  <sequence>18</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666862</millis>
+  <sequence>19</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666862</millis>
+  <sequence>20</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666863</millis>
+  <sequence>21</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666864</millis>
+  <sequence>22</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666864</millis>
+  <sequence>23</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666865</millis>
+  <sequence>24</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666866</millis>
+  <sequence>25</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666866</millis>
+  <sequence>26</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666867</millis>
+  <sequence>27</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666867</millis>
+  <sequence>28</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666868</millis>
+  <sequence>29</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666868</millis>
+  <sequence>30</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666868</millis>
+  <sequence>31</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666869</millis>
+  <sequence>32</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666869</millis>
+  <sequence>33</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666870</millis>
+  <sequence>34</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666871</millis>
+  <sequence>35</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666871</millis>
+  <sequence>36</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666872</millis>
+  <sequence>37</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666872</millis>
+  <sequence>38</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666873</millis>
+  <sequence>39</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666873</millis>
+  <sequence>40</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666873</millis>
+  <sequence>41</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666874</millis>
+  <sequence>42</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666874</millis>
+  <sequence>43</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666875</millis>
+  <sequence>44</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666875</millis>
+  <sequence>45</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666876</millis>
+  <sequence>46</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666876</millis>
+  <sequence>47</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666876</millis>
+  <sequence>48</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666877</millis>
+  <sequence>49</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666877</millis>
+  <sequence>50</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666878</millis>
+  <sequence>51</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666878</millis>
+  <sequence>52</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666879</millis>
+  <sequence>53</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666879</millis>
+  <sequence>54</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666879</millis>
+  <sequence>55</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666880</millis>
+  <sequence>56</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666880</millis>
+  <sequence>57</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666881</millis>
+  <sequence>58</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666881</millis>
+  <sequence>59</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666882</millis>
+  <sequence>60</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666882</millis>
+  <sequence>61</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666883</millis>
+  <sequence>62</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:06</date>
+  <millis>1540533666883</millis>
+  <sequence>63</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:09</date>
+  <millis>1540533669841</millis>
+  <sequence>64</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:10</date>
+  <millis>1540533670224</millis>
+  <sequence>65</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671580</millis>
+  <sequence>66</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671580</millis>
+  <sequence>67</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671580</millis>
+  <sequence>68</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671580</millis>
+  <sequence>69</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671581</millis>
+  <sequence>70</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671581</millis>
+  <sequence>71</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671582</millis>
+  <sequence>72</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671582</millis>
+  <sequence>73</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671582</millis>
+  <sequence>74</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671583</millis>
+  <sequence>75</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671584</millis>
+  <sequence>76</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671587</millis>
+  <sequence>77</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671587</millis>
+  <sequence>78</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671588</millis>
+  <sequence>79</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671588</millis>
+  <sequence>80</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671588</millis>
+  <sequence>81</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671589</millis>
+  <sequence>82</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671589</millis>
+  <sequence>83</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671590</millis>
+  <sequence>84</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671590</millis>
+  <sequence>85</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671591</millis>
+  <sequence>86</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671591</millis>
+  <sequence>87</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671591</millis>
+  <sequence>88</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671592</millis>
+  <sequence>89</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671592</millis>
+  <sequence>90</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671592</millis>
+  <sequence>91</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671592</millis>
+  <sequence>92</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671593</millis>
+  <sequence>93</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671593</millis>
+  <sequence>94</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671594</millis>
+  <sequence>95</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:11</date>
+  <millis>1540533671594</millis>
+  <sequence>96</sequence>
+  <logger>bitacora.subnivel.Utilidades</logger>
+  <level>SEVERE</level>
+  <class>bitacora.subnivel.LoggerJugador</class>
+  <method>Muerte</method>
+  <thread>12</thread>
+  <message>Murió el jugador, ha finalizado la partida</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:19</date>
+  <millis>1540533679053</millis>
+  <sequence>97</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:19</date>
+  <millis>1540533679162</millis>
+  <sequence>98</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:21</date>
+  <millis>1540533681319</millis>
+  <sequence>99</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:21</date>
+  <millis>1540533681588</millis>
+  <sequence>100</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:22</date>
+  <millis>1540533682044</millis>
+  <sequence>101</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:22</date>
+  <millis>1540533682722</millis>
+  <sequence>102</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:23</date>
+  <millis>1540533683201</millis>
+  <sequence>103</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:23</date>
+  <millis>1540533683950</millis>
+  <sequence>104</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:24</date>
+  <millis>1540533684025</millis>
+  <sequence>105</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:24</date>
+  <millis>1540533684254</millis>
+  <sequence>106</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685187</millis>
+  <sequence>107</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685255</millis>
+  <sequence>108</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685405</millis>
+  <sequence>109</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685406</millis>
+  <sequence>110</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685406</millis>
+  <sequence>111</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685406</millis>
+  <sequence>112</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685407</millis>
+  <sequence>113</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685407</millis>
+  <sequence>114</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685407</millis>
+  <sequence>115</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685408</millis>
+  <sequence>116</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685408</millis>
+  <sequence>117</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685408</millis>
+  <sequence>118</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685408</millis>
+  <sequence>119</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685409</millis>
+  <sequence>120</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685409</millis>
+  <sequence>121</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685409</millis>
+  <sequence>122</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685409</millis>
+  <sequence>123</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685409</millis>
+  <sequence>124</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685410</millis>
+  <sequence>125</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685410</millis>
+  <sequence>126</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685411</millis>
+  <sequence>127</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685414</millis>
+  <sequence>128</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685414</millis>
+  <sequence>129</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685414</millis>
+  <sequence>130</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685415</millis>
+  <sequence>131</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685415</millis>
+  <sequence>132</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685415</millis>
+  <sequence>133</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685415</millis>
+  <sequence>134</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685416</millis>
+  <sequence>135</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685416</millis>
+  <sequence>136</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Infanteria</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685416</millis>
+  <sequence>137</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Capitan</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685416</millis>
+  <sequence>138</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonNuevo</method>
+  <thread>12</thread>
+  <message>Creación Dragón de tipo: Comandante</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:25</date>
+  <millis>1540533685417</millis>
+  <sequence>139</sequence>
+  <logger>bitacora.subnivel.Utilidades</logger>
+  <level>SEVERE</level>
+  <class>bitacora.subnivel.LoggerJugador</class>
+  <method>Muerte</method>
+  <thread>12</thread>
+  <message>Murió el jugador, ha finalizado la partida</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:29</date>
+  <millis>1540533689665</millis>
+  <sequence>140</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:30</date>
+  <millis>1540533690188</millis>
+  <sequence>141</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:30</date>
+  <millis>1540533690249</millis>
+  <sequence>142</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:30</date>
+  <millis>1540533690312</millis>
+  <sequence>143</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:30</date>
+  <millis>1540533690863</millis>
+  <sequence>144</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:30</date>
+  <millis>1540533690880</millis>
+  <sequence>145</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:32</date>
+  <millis>1540533692112</millis>
+  <sequence>146</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:32</date>
+  <millis>1540533692230</millis>
+  <sequence>147</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:32</date>
+  <millis>1540533692268</millis>
+  <sequence>148</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:32</date>
+  <millis>1540533692712</millis>
+  <sequence>149</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:33</date>
+  <millis>1540533693280</millis>
+  <sequence>150</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:34</date>
+  <millis>1540533694528</millis>
+  <sequence>151</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:35</date>
+  <millis>1540533695487</millis>
+  <sequence>152</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:36</date>
+  <millis>1540533696878</millis>
+  <sequence>153</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+<record>
+  <date>2018-10-26T00:01:39</date>
+  <millis>1540533699396</millis>
+  <sequence>154</sequence>
+  <logger>bitacora.subnivel.Control</logger>
+  <level>INFO</level>
+  <class>bitacora.subnivel.LoggerDragon</class>
+  <method>dragonEliminado</method>
+  <thread>12</thread>
+  <message>Se eliminó el Dragón: A</message>
+</record>
+</log>
