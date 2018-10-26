@@ -1,7 +1,9 @@
 package Structure.sorts;
 
 
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement
 public class Quick {
 
     Node head;

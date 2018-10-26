@@ -1,5 +1,8 @@
 package Structure;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class LinkedList<T> {
         private Node<T> head;
         private int size;

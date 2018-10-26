@@ -1,5 +1,9 @@
 package Structure.sorts;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+
 public class Selection {
     public static int[] doSelectionSort(int[] arr){
 

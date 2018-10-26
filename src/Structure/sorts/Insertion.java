@@ -1,4 +1,7 @@
 package Structure.sorts;
+
+import javax.xml.bind.annotation.XmlRootElement;
+@XmlRootElement
 class ListNode {
     int val;
     ListNode next;
@@ -8,6 +11,7 @@ class ListNode {
         next = null;
     }
 }
+@XmlRootElement
 public class Insertion {
     public static ListNode insertionSortList(ListNode head) {
 

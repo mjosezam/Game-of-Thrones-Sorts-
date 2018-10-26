@@ -1,5 +1,8 @@
 package Structure;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Node<T> {
     public Node next;
     private T data;

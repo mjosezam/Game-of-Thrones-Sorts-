@@ -1,5 +1,8 @@
 package Structure;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 class AVLTree<T> {
 
     Node<T> root;
