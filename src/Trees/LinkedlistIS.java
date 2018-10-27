@@ -4,10 +4,19 @@ public class LinkedlistIS<T>
 {
     Node head, sorted, root;
     int size;
+    ServerDragons server = new ServerDragons();
 
     public LinkedlistIS(){
         this.head=null;
         this.size=0;
+    }
+
+    public void validate_parent(LinkedlistIS dragons){
+        for (int i = 0; i < dragons.getSize(); i++) {
+            if (dragons.getNode(i).parent==null){
+                dragons.getNode(i).parent=server.setparent();
+            }
+        }
     }
 
 
@@ -41,7 +50,7 @@ public class LinkedlistIS<T>
 
 
     // function to sort a singly linked list using insertion sort
-    public void insertionSort(Node headref) {
+    void insertionSort(Node headref) {
         // Initialize sorted linked list
         sorted = null;
         Node current = headref;
@@ -146,7 +155,7 @@ public class LinkedlistIS<T>
                 }
 
             }
-            Node temp = new Node(node1.getSpeed(),node1.getAge(),node1.getResistance(), node1.getClasse(), node1.getName());
+            Node temp = new Node(node1.getSpeed(),node1.getAge(),node1.getResistance(), node1.getClasse(), node1.getName(), node1.getParent());
             node1.setAge(min.getAge());
             min.setAge(temp.getAge());
         }
@@ -211,16 +220,16 @@ public class LinkedlistIS<T>
         return height(N.left) - height(N.right);
     }
 
-    Node insert(Node node, int speed,int age,int resistance,String classe, String name) {
+    Node insert(Node node, int speed,int age,int resistance,String classe, String name, Node parent) {
 
         /* 1.  Perform the normal BST insertion */
         if (node == null)
-            return (new Node(speed,age,resistance,classe,name));
+            return (new Node(speed,age,resistance,classe,name, parent));
 
         if (age < node.age)
-            node.left = insert(node.left, speed,age,resistance,classe,name);
+            node.left = insert(node.left, speed,age,resistance,classe,name, parent);
         else if (age > node.age)
-            node.right = insert(node.right, speed,age,resistance,classe,name);
+            node.right = insert(node.right, speed,age,resistance,classe,name, parent);
         else // Duplicate keys not allowed
             return node;
 
@@ -275,17 +284,18 @@ public class LinkedlistIS<T>
     public static void main(String[] args)
     {
         LinkedlistIS tree = new LinkedlistIS();
-        Node node1= new Node(10,69,8,"com","a1");
-        Node node2= new Node(30,2,8,"com","a2");
-        Node node3= new Node(1,1,8,"com","a3");
-        tree.root = tree.insert(tree.root, node1.speed,node1.age,node1.resistance,node1.classe,node1.name);
-        tree.root = tree.insert(tree.root, node2.speed,node2.age,node2.resistance,node2.classe,node2.name);
-        tree.root = tree.insert(tree.root, node3.speed,node3.age,node3.resistance,node3.classe,node3.name);
-        System.out.println("Preorder traversal" +
-                " of constructed tree is : ");
-        tree.preOrder(tree.root);
+        /**Node node1= new Node(10,69,8,"com","a1",tree.);
+         //Node node2= new Node(30,2,8,"com","a2");
+         //Node node3= new Node(1,1,8,"com","a3");
+         tree.root = tree.insert(tree.root, node1.speed,node1.age,node1.resistance,node1.classe,node1.name, node2);
+         tree.root = tree.insert(tree.root, node2.speed,node2.age,node2.resistance,node2.classe,node2.name, node3);
+         tree.root = tree.insert(tree.root, node3.speed,node3.age,node3.resistance,node3.classe,node3.name, node1);
+         System.out.println("Preorder traversal" +
+         " of constructed tree is : ");
+         tree.preOrder(tree.root);**/
 
     }
 }
 
 // This code is contributed by Rishabh Mahrsee
+

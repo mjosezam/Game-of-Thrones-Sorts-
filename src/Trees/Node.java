@@ -1,19 +1,28 @@
 package Trees;
 
 public class Node<T> {
-    public Node next, prev, left, right;
+    public Node next, prev, left, right, parent, son1, son2;
     public int height;
     public String name, classe;
     public int resistance,speed, age;
 
 
-    public Node(int speed,int age,int resistance,String classe, String name) {
+    public Node(int speed,int age,int resistance,String classe, String name, Node parent) {
         this.age = age;
         this.speed = speed;
         this.resistance = resistance;
         this.classe = classe;
         this.name = name;
+        this.parent = parent;
         height=1;
+    }
+
+    public Node getParent() {
+        return parent;
+    }
+
+    public void setParent(Node parent) {
+        this.parent = parent;
     }
 
     public Node getNext() {
