@@ -7,6 +7,7 @@ public class ServerDragons<T> {
     SimpleList classes = new SimpleList();
     SimpleList ages = new SimpleList();
     LinkedlistIS dragons = new LinkedlistIS();
+    SimpleList usedwaves = new SimpleList();
     int tmp=100, dragons_num=100;
     java.util.Random random = new java.util.Random();
 
@@ -80,17 +81,22 @@ public class ServerDragons<T> {
     }
 
 
-    public void generate(String wave){
-        int dragons_num = ((20*tmp)/100)+tmp;
-        this.tmp=dragons_num;
+    public void generate(){
+        int index = (int) (1 + (Math.random() * (27 - 1)));
+        char [] waves = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k','l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+        char wave = waves[index];
+        if (in(wave, usedwaves)){
+            generate();
+        }else{
         for (int cont = 0; cont < dragons_num; cont++) {
+            usedwaves.push(wave);
             String name = wave  + String.valueOf(cont);
             System.out.println(name);
             Node dragon = new Node(random_speed(),random_age(),random_resistance(),random_classe(),name, setparent());
-            dragons.push(dragon);
+            dragons.push(dragon);}
         }
     }
-    
+
 }
 
 
