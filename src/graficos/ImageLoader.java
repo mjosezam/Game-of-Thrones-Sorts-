@@ -8,19 +8,19 @@ import javax.swing.ImageIcon;
 
 
 public class ImageLoader {
-	/**
-	 * 
-	 * @param caminoDeImagen localizacion de la imagen que se quiere cargar
-	 * @return carga la imagen
-	 */
-	public static BufferedImage cargarImagen(String caminoDeImagen) {
-		try {
-			System.out.println(caminoDeImagen);
-			return ImageIO.read(ImageLoader.class.getResource(caminoDeImagen));
-		} catch (IOException e) {
-			e.printStackTrace();
-			System.exit(1);//Si no logra cargar la imagen cierra el programa
-		}
-		return null;
-	}
+    /**
+     *
+     * @param caminoDeImagen localizacion de la imagen que se quiere cargar
+     * @return carga la imagen
+     */
+    public static BufferedImage cargarImagen(String caminoDeImagen) {
+        try {
+            System.out.println(caminoDeImagen);
+            return ImageIO.read(ImageLoader.class.getResource(caminoDeImagen));
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.exit(1);//Si no logra cargar la imagen cierra el programa
+        }
+        return null;
+    }
 }

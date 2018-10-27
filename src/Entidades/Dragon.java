@@ -16,7 +16,7 @@ public class Dragon extends Creature {
 	private boolean subir = true;
 	int cont = 0;
 
-	
+
 	public Dragon(Game juego,String ID,int tipo,ControlDisparo cd,float x, float y) {
 		super(juego, x, y);
 		this.controlDisp = cd;
@@ -27,7 +27,7 @@ public class Dragon extends Creature {
 		this.velocidad = 3;
 		this.hitbox = new Rectangle((int)getX(),(int)getY(),getAncho(),getAlto()-30);
 	}
-	
+
 	public String getID() {
 		return ID;
 	}
@@ -53,7 +53,7 @@ public class Dragon extends Creature {
 	public void setSprites(BufferedImage[] sprites) {
 		this.sprites = sprites;
 	}
-	
+
 	public int getTipo() {
 		return tipo;
 	}
@@ -77,7 +77,7 @@ public class Dragon extends Creature {
 		this.clase = clase;
 	}
 
-	
+
 	public void setVelocidadDisp(int velocidadDisp) {
 		this.velocidadDisp = velocidadDisp;
 	}
@@ -86,15 +86,15 @@ public class Dragon extends Creature {
 		return hitbox;
 	}
 	public void updateHitbox() {
-	this.hitbox = new Rectangle((int)getX(),(int)getY(),getAncho(),getAlto()-30);
+		this.hitbox = new Rectangle((int)getX(),(int)getY(),getAncho(),getAlto()-30);
 	}
 	public String getDatos() {
 		String datos = "ID: "+getID()+"                             "+
 				"Tipo: "+getTipo()+"\nSalud: "+getSalud()+"                          "
-			+ ""+"Edad: "+getEdad()+"\nRecarga Disparo: "+getVelocidadDisp()+"\nClase: "+getClase();
+				+ ""+"Edad: "+getEdad()+"\nRecarga Disparo: "+getVelocidadDisp()+"\nClase: "+getClase();
 		return datos;
 	}
-	
+
 	public void disparoDragones() {
 		if (cont == getContadorDisparo()) {
 			controlDisp.addProyectilEnemigos(getX(), getY()+10);
@@ -104,7 +104,7 @@ public class Dragon extends Creature {
 			cont++;
 		}
 	}
-	
+
 
 	public ControlDisparo getControlDisp() {
 		return controlDisp;
@@ -124,7 +124,7 @@ public class Dragon extends Creature {
 		updateHitbox();
 		move();
 	}
-	
+
 	@Override
 	public void render(Graphics g) {
 		g.drawImage(sprites[this.contador],(int)x,(int)y,getAncho(),getAlto(),null);

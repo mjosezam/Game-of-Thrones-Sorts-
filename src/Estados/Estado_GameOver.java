@@ -9,17 +9,17 @@ import graficos.Assets;
 public class Estado_GameOver extends Estado {
 	private Estado estadoJuego;
 	private Estado estadoMenu;
-	
+
 	public Estado_GameOver(Game juego) {
 		super(juego);
 		estadoJuego = new Estado_Juego(juego);
 		estadoMenu = new Estado_Menu(juego);
 	}
-	
+
 	@Override
 	public void update() {
 		Rectangle retry = new Rectangle(0,900,200,200);
-		Rectangle quit = new Rectangle(1525,900,400,200);	
+		Rectangle quit = new Rectangle(1525,900,400,200);
 		Point punto = new Point(juego.getMouseManager().getMouseX(),juego.getMouseManager().getMouseY());
 		if(juego.getMouseManager().isLeftPressed()) {
 			if (retry.contains(punto)) {

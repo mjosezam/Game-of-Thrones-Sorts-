@@ -5,7 +5,7 @@ import java.awt.Graphics;
 import Logica.Game;
 
 public abstract class Estado {
-	
+
 	private static Estado estadoActual = null;//guarda el estado que se quiere actualizar
 	/**
 	 * @param estado estado al que se quiere cambiar
@@ -13,7 +13,7 @@ public abstract class Estado {
 	public static void setEstado (Estado estado) {
 		estadoActual = estado;
 	}
-	
+
 	public static Estado getEstado() {
 		return estadoActual;
 	}

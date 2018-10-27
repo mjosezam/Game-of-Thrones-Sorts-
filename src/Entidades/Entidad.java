@@ -10,7 +10,7 @@ public abstract class Entidad {
 	protected Game game;
 	protected float x,y;
 	protected static int ancho = 100,alto = 100;
-	
+
 	public Entidad(Game game,float x,float y) {
 		this.game = game;
 		this.x = x;
@@ -18,8 +18,8 @@ public abstract class Entidad {
 	}
 	public abstract void update();
 	public abstract void render(Graphics g);
-	
-	
+
+
 	public float getX() {
 		return x;
 	}
@@ -44,5 +44,5 @@ public abstract class Entidad {
 	public void setAlto(int alto) {
 		this.alto = alto;
 	}
-	
+
 }

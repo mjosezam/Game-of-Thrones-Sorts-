@@ -15,7 +15,7 @@ public class Jugador extends Creature{
 	private ControlDisparo controlDisp;
 	private int contador,contadorIteracion,puntaje;
 	private boolean puedeDisparar=true;
-	
+
 	public Jugador(Game juego,float x, float y,ControlDisparo cd) {
 		super(juego, x, y);
 		this.ancho = 100;
@@ -38,22 +38,22 @@ public class Jugador extends Creature{
 				contador = 0;
 			}
 		}
-		
+
 		getInput();
 		move();
 	}
-	
+
 	@Override
 	public void render(Graphics g) {
 		g.drawImage(Assets.jugadorVolando[this.contador],(int)x,(int)y,getAncho(),getAlto(),null);
 		//g.drawRect((int)hitbox.getX(),(int)hitbox.getY(),(int)hitbox.getWidth(),(int)hitbox.getHeight());
 		controlDisp.update(g);
 	}
-	
+
 	public void updateHitbox() {
 		this.hitbox = new Rectangle((int)getX(),(int)getY()+25,100,50);
-		}	
-	
+	}
+
 	private void getInput() {
 		movimientoX = 0;
 		movimientoY = 0;
@@ -84,11 +84,11 @@ public class Jugador extends Creature{
 			movimientoX = -velocidad;
 		}
 		if(juego.getControles().space) {
-				if(puedeDisparar==true){
+			if(puedeDisparar==true){
 				controlDisp.addProyectil(this.x+75, this.y+70);
 				puedeDisparar=false ;
-				}
 			}
+		}
 		if(!juego.getControles().space) {
 			puedeDisparar=true;
 		}
@@ -107,5 +107,5 @@ public class Jugador extends Creature{
 	public void setPuntaje(int puntaje) {
 		this.puntaje = puntaje;
 	}
-	
+
 }

@@ -18,5 +18,5 @@ public interface Nodo<T> {
 	 * @param valor dato a ingresar.
 	 */
 	void setValor(T valor);
-	
+
 }

@@ -3,16 +3,16 @@ package Entidades;
 import Logica.Game;
 
 public abstract class Creature extends Entidad {
-	
+
 	public static int saludBase = 1;
 	public static final int velocidadBase = 5;
-	
+
 	protected int salud;
 	protected float velocidad;
 	protected float movimientoX;
 	protected float movimientoY;
 	protected int tipo;
-	
+
 	public Creature(Game game,float x, float y) {
 		super(game,x, y);
 		saludBase = salud;
@@ -20,7 +20,7 @@ public abstract class Creature extends Entidad {
 		movimientoX=0;
 		movimientoY=0;
 	}
-	
+
 	public void move() {
 		x += movimientoX;
 		y += movimientoY;
@@ -60,5 +60,3 @@ public abstract class Creature extends Entidad {
 		this.velocidad = velocidad;
 	}
 }
-	
-

@@ -17,14 +17,14 @@ public class FabricaDragones {
 	public final static Logger LOGGER = Logger.getLogger("bitacora.Bitacora");
 	private Game game;
 	public ListaSimple<Dragon> lista = new ListaSimple<Dragon>();
-	
+
 	public FabricaDragones(Game game) {
 		this.game = game;
-		
+
 	}
 	/*
 	 * Eliminar sets del dragon
-	 * Solo asignar imagen y posicion x,y 
+	 * Solo asignar imagen y posicion x,y
 	 */
 	public Dragon nuevoDragon (int tipo,String id,ControlDisparo cd, float x,float y) {
 		Dragon dragon = new Dragon(game, id, tipo,cd, x, y);
@@ -43,7 +43,7 @@ public class FabricaDragones {
 			lista.add(dragon);
 			return dragon;
 		}
-		
+
 		else if (tipo == 2) {
 			Random random = new Random();
 			int VelocidadDisp = random.nextInt(100)+5;
@@ -95,23 +95,23 @@ public class FabricaDragones {
 				}
 				else {
 					d.getLeft().setX(d.getValor().getX()+100);
-					
+
 				}
 			}
 			if (d.getRight()!= null) {
 				if(d.getValor().getY():0 && d.getValor().getY()<980) {
 					d.getRight().setX(d.getValor().getX()+100);
 					d.getRight().setY(d.getValor().getY()-100);
-					
+
 				}
 			}
 		}
-		
+
 	}*/
-	
+
 	public void removeDragon(Dragon dragon) {
 		lista.delete(dragon);
 		loggerDragon.dragonEliminado(dragon.getID());
-	} 
+	}
 
 }

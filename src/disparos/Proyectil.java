@@ -43,7 +43,7 @@ public class Proyectil extends Entidad{
 		this.hitbox = new Rectangle((int)getX(),(int)getY(),getAncho()-70,getAlto()-80);
 		xMove = 0;
 		move();
-	} 
+	}
 
 	/**
 	 * Renderiza la bala
@@ -61,10 +61,10 @@ public class Proyectil extends Entidad{
 		}
 		else {
 			x-=Jugador.velocidadDisp;
-		}	
+		}
 	}
 	public Rectangle getHitbox() {
 		return hitbox;
 	}
-	
+
 }

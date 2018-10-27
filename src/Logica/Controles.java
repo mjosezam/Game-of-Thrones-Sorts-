@@ -5,7 +5,7 @@ import java.awt.event.KeyListener;
 
 
 public class Controles implements KeyListener{
-	
+
 	private boolean[]keys;
 	public boolean arriba,abajo,izq,der,space;
 	public Controles() {

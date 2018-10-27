@@ -3,7 +3,7 @@ package Estructuras;
 public class NodoSimple<T> implements Nodo<T>{
 	private T valor;
 	private NodoSimple<T> siguiente;
-	
+
 	public NodoSimple(T valor) {
 		this.valor = valor;
 		this.siguiente = null;

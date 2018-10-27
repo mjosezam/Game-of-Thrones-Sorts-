@@ -9,13 +9,13 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 public class Display extends JFrame {
-	
+
 	private Canvas canvas;//para dibujar las imagenes
 	private JFrame frame;//ventana donde se muestra el juego
 	private String titulo;
 	private int ancho,alto;
-	
-	
+
+
 	public Display(String titulo,int ancho,int alto) {
 		this.titulo = titulo;
 		this.ancho = ancho;
@@ -47,5 +47,5 @@ public class Display extends JFrame {
 	public JFrame getFrame() {
 		return frame;
 	}
-	
+
 }

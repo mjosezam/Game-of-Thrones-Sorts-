@@ -7,14 +7,14 @@ import Logica.Game;
 import graficos.Assets;
 public class Estado_Menu extends Estado {
 	private Estado estadoJuego;
-	
+
 	public Estado_Menu(Game juego) {
 		super(juego);
 		estadoJuego = new Estado_Juego(juego);
 		/*AudioPlayer audioPlayer = new AudioPlayer("C:\\Users\\Mario\\Desktop\\GameOfSorts\\GameOfSorts\\resources\\sonidos\\musicaFondo.mp3");
 		audioPlayer.start();*/
 	}
-	
+
 	@Override
 	public void update() {
 		Rectangle play = new Rectangle(675, 350, 465, 125);
