@@ -41,7 +41,7 @@ public class LinkedlistIS<T>
 
 
     // function to sort a singly linked list using insertion sort
-    void insertionSort(Node headref) {
+    public void insertionSort(Node headref) {
         // Initialize sorted linked list
         sorted = null;
         Node current = headref;

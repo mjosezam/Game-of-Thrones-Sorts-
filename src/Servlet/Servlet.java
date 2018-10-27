@@ -1,5 +1,7 @@
 package Servlet;
 
+import Trees.BTree;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -9,22 +11,41 @@ import javax.xml.ws.http.HTTPException;
 import java.beans.XMLEncoder;
 import java.io.IOException;
 import java.io.OutputStream;
-import java.util.LinkedList;
+
 
 @WebServlet(name = "Prueba",urlPatterns ={"/Prueba"})
 public class Servlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String nums= request.getParameter("nums");
-        String dragon= request.getParameter("dragon");
-        if(dragon!=null){
-            send_typed_response(request,response,dragon);
-            LinkedList<LinkedList> dragones=xmlToObject(dragon);
-        }else{
-            throw new HTTPException(HttpServletResponse.SC_BAD_REQUEST);
+        String method = request.getParameter("method");
+        String dragonList = request.getParameter("dragonList");
+        Trees.LinkedlistIS sendList = Serializer.deserializerString(dragonList);
+        if (method != null) {
+            //switch (method) {
+              //  case "Generate":
+
+                //case "insertion":
+                  //  sendList.insertionSort();
+                    //break;
+                //case "quicksort":
+                  //  sendList.quickSort();
+                    //break;
+
+                //case "selection":
+                  //  sendList.selectionSort();
+                    //break;
+
+                //case "btree":
+                  //  BTree sendList = new BTree(sendList);
+                    //break;
+
+                //case "avl":
+                  //  AVL sendList = new AVL(sendList);
+                    //break;
+            //send_typed_response(request,response,Serializer.deserializerString(sendList));
+            }
 
         }
 
-    }
 
 
     private void send_typed_response(HttpServletRequest request,
@@ -81,10 +102,6 @@ public class Servlet extends HttpServlet {
             }
         }
 
-    }
-    private LinkedList<LinkedList> xmlToObject(String dragon) {
-
-        return null;
     }
 
 }

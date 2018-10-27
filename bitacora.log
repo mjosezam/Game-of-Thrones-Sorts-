@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-10-26T20:09:21</date>
-  <millis>1540606161999</millis>
+  <date>2018-10-27T01:42:31</date>
+  <millis>1540626151198</millis>
   <sequence>0</sequence>
   <logger>bitacora.Bitacora</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Inicia partida</message>
 </record>
 <record>
-  <date>2018-10-26T20:09:22</date>
-  <millis>1540606162075</millis>
+  <date>2018-10-27T01:42:31</date>
+  <millis>1540626151447</millis>
   <sequence>1</sequence>
   <logger>bitacora.Bitacora</logger>
   <level>INFO</level>
@@ -24,8 +24,8 @@
   <message>Llamadas a los componentes del sistema</message>
 </record>
 <record>
-  <date>2018-10-26T20:09:22</date>
-  <millis>1540606162080</millis>
+  <date>2018-10-27T01:42:31</date>
+  <millis>1540626151450</millis>
   <sequence>2</sequence>
   <logger>bitacora.Bitacora</logger>
   <level>INFO</level>
@@ -35,8 +35,8 @@
   <message>Probando manejo de excepciones</message>
 </record>
 <record>
-  <date>2018-10-26T20:09:22</date>
-  <millis>1540606162087</millis>
+  <date>2018-10-27T01:42:31</date>
+  <millis>1540626151456</millis>
   <sequence>3</sequence>
   <logger>bitacora.Bitacora</logger>
   <level>SEVERE</level>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="jackson-annotations-2.9.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../libreria/jackson-annotations-2.9.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libreria/jackson-core-2.9.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libreria/jackson-databind-2.9.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libreria/jackson-dataformat-xml-2.9.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libreria/jackson-module-jaxb-annotations-2.9.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

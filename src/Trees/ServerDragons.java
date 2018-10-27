@@ -1,6 +1,8 @@
 package Trees;
-import java.net.ServerSocket;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class ServerDragons<T> {
     SimpleList classes = new SimpleList();
     SimpleList ages = new SimpleList();

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="javax.ws.rs-api-2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../jersey/jersey/javax.ws.rs-api-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jersey/jersey/jersey-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jersey/jersey/jersey-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jersey/jersey/jersey-container-servlet-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jersey/jersey/jersey-container-servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jersey/jersey/jersey-server.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
