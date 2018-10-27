@@ -4,7 +4,6 @@
            xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
            version="2.5">
-<<<<<<< HEAD
     <servlet>
         <servlet-name>Prueba</servlet-name>
         <servlet-class>
@@ -16,7 +15,5 @@
         <servlet-name>Prueba</servlet-name>
         <url-pattern>/Prueba</url-pattern>
     </servlet-mapping>
-=======
->>>>>>> bd411541cfe1bf20847882bafcb5bcddb7e6cded
 
 </web-app>
