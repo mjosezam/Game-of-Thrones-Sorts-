@@ -26,5 +26,6 @@
     <orderEntry type="library" scope="PROVIDED" name="WebSphere 18.0.0.35" level="application_server_libraries" />
     <orderEntry type="library" name="javax.ws.rs-api-2.0" level="project" />
     <orderEntry type="library" name="jackson-annotations-2.9.7" level="project" />
+    <orderEntry type="library" name="jackson-annotations-2.9.72" level="project" />
   </component>
 </module>

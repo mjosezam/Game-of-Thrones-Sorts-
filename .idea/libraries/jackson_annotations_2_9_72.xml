@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="jackson-annotations-2.9.72">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/library/jackson-annotations-2.9.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jackson-core-2.9.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jackson-databind-2.9.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jackson-dataformat-xml-2.9.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jackson-module-jaxb-annotations-2.9.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/javax.ws.rs-api-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jersey-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jersey-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jersey-container-servlet-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jersey-container-servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/library/jersey-server.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
