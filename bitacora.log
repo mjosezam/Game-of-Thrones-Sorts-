@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-26T20:09:21</date>
+  <millis>1540606161999</millis>
+  <sequence>0</sequence>
+  <logger>bitacora.Bitacora</logger>
+  <level>INFO</level>
+  <class>Logica.Launcher</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicia partida</message>
+</record>
+<record>
+  <date>2018-10-26T20:09:22</date>
+  <millis>1540606162075</millis>
+  <sequence>1</sequence>
+  <logger>bitacora.Bitacora</logger>
+  <level>INFO</level>
+  <class>Logica.Launcher</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Llamadas a los componentes del sistema</message>
+</record>
+<record>
+  <date>2018-10-26T20:09:22</date>
+  <millis>1540606162080</millis>
+  <sequence>2</sequence>
+  <logger>bitacora.Bitacora</logger>
+  <level>INFO</level>
+  <class>Logica.Launcher</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Probando manejo de excepciones</message>
+</record>
+<record>
+  <date>2018-10-26T20:09:22</date>
+  <millis>1540606162087</millis>
+  <sequence>3</sequence>
+  <logger>bitacora.Bitacora</logger>
+  <level>SEVERE</level>
+  <class>Logica.Launcher</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.Exception: ERROR DE CONTROL DE FLUJO DE PROGRAMA
+	at Logica.Launcher.main(Launcher.java:72)
+</message>
+</record>
+</log>
