@@ -7,15 +7,23 @@ import Logica.Game;
 import graficos.Assets;
 public class Estado_Menu extends Estado {
 	private Estado estadoJuego;
-
+	/**
+	 * constructor del estado de menu
+	 * @param juego
+	 */
 	public Estado_Menu(Game juego) {
 		super(juego);
 		estadoJuego = new Estado_Juego(juego);
 		/*AudioPlayer audioPlayer = new AudioPlayer("C:\\Users\\Mario\\Desktop\\GameOfSorts\\GameOfSorts\\resources\\sonidos\\musicaFondo.mp3");
 		audioPlayer.start();*/
 	}
-
+	
 	@Override
+	/**
+	 * Crea los rectangulos para jugar y cerrar la aplicacion
+	 * Revisa la posicion del mouse
+	 * Cambia el estado a estado de juego
+	 */
 	public void update() {
 		Rectangle play = new Rectangle(675, 350, 465, 125);
 		Rectangle exit = new Rectangle(675, 610, 465, 125);
@@ -31,6 +39,9 @@ public class Estado_Menu extends Estado {
 	}
 
 	@Override
+	/**
+	 * Dibuja en pantalla
+	 */
 	public void render(Graphics g) {
 		g.drawImage(Assets.menu,0,0,null);
 	}

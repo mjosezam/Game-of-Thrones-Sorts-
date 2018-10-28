@@ -1,4 +1,4 @@
-package Estructuras;
+package Estructuras	;
 
 class AVLTree<T> {
 

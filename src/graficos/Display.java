@@ -1,21 +1,22 @@
 package graficos;
 
 import java.awt.Canvas;
-
-import java.awt.Color;
 import java.awt.Dimension;
-
 import javax.swing.JFrame;
-import javax.swing.JLabel;
 
 public class Display extends JFrame {
-
+	
 	private Canvas canvas;//para dibujar las imagenes
-	private JFrame frame;//ventana donde se muestra el juego
+	private JFrame frame;//ventana del juego
 	private String titulo;
 	private int ancho,alto;
-
-
+	
+	/**
+	 * Constructor de la ventana
+	 * @param titulo, titulo que se muestra en la ventana
+	 * @param ancho, ancho de la ventana
+	 * @param alto, alto de la ventana en pixeles
+	 */
 	public Display(String titulo,int ancho,int alto) {
 		this.titulo = titulo;
 		this.ancho = ancho;
@@ -23,7 +24,7 @@ public class Display extends JFrame {
 		crearVentana();
 	}
 	/**
-	 * creacion de la ventana con las dimensiones y parametros
+	 * creacion de la ventana con las dimensiones y parametros fijos
 	 */
 	private void crearVentana() {
 		frame = new JFrame(titulo);
@@ -47,5 +48,5 @@ public class Display extends JFrame {
 	public JFrame getFrame() {
 		return frame;
 	}
-
+	
 }
