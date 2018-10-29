@@ -1,0 +1,10 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      1   10/28/18 20:05:48:016 CST   10/28/18 20:05:48:016 CST com.ibm.wsspi.adaptable.module.UnableToAdaptException com.ibm.ws.app.manager.module.internal.ContextRootUtil 43
+                                                                            - C:\Users\maria\OneDrive\Escritorio\Computadores\2 semestre\Datos 1\Proyecto2\Game of Thrones\wlp-webProfile8-18.0.0.3\wlp\usr\servers\server1\logs\ffdc\ffdc_18.10.28_20.05.48.0.log
+     1      1   10/28/18 20:05:48:229 CST   10/28/18 20:05:48:229 CST com.ibm.wsspi.adaptable.module.UnableToAdaptException com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl 50
+                                                                            - C:\Users\maria\OneDrive\Escritorio\Computadores\2 semestre\Datos 1\Proyecto2\Game of Thrones\wlp-webProfile8-18.0.0.3\wlp\usr\servers\server1\logs\ffdc\ffdc_18.10.28_20.05.48.1.log
+     2      1   10/28/18 20:05:48:394 CST   10/28/18 20:05:48:394 CST java.lang.IllegalStateException com.ibm.ws.app.manager.internal.statemachine.StartAction 145
+                                                                            - C:\Users\maria\OneDrive\Escritorio\Computadores\2 semestre\Datos 1\Proyecto2\Game of Thrones\wlp-webProfile8-18.0.0.3\wlp\usr\servers\server1\logs\ffdc\ffdc_18.10.28_20.05.48.2.log
+------+------+---------------------------+---------------------------+---------------------------

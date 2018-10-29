@@ -4313,3 +4313,199 @@ process = 11196@DESKTOP-S1QGVIM
 [10/28/18 16:38:50:194 CST] 0000004d com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
 [10/28/18 16:38:50:222 CST] 0000004d ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
 [10/28/18 16:38:52:190 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server server1 stopped after 46.442 seconds.
+********************************************************************************
+product = WebSphere Application Server 18.0.0.3 (wlp-1.0.22.cl180320180905-2337)
+wlp.install.dir = C:/Users/maria/OneDrive/Escritorio/Computadores/2 semestre/Datos 1/Proyecto2/Game of Thrones/wlp-webProfile8-18.0.0.3/wlp/
+java.home = C:\Program Files\Java\jdk1.8.0_181\jre
+java.version = 1.8.0_181
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_181-b13)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 5476@DESKTOP-S1QGVIM
+********************************************************************************
+[10/28/18 19:57:23:743 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server server1 has been launched.
+[10/28/18 19:57:23:896 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/18.0.0.3/lafiles/en.html
+[10/28/18 19:57:37:155 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 20.775 seconds
+[10/28/18 19:57:37:541 CST] 00000019 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[10/28/18 19:58:39:719 CST] 00000012 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[10/28/18 19:58:41:355 CST] 0000003e com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9080.
+[10/28/18 19:58:41:356 CST] 00000012 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[10/28/18 19:58:49:521 CST] 0000004e com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0820A: The default keystore has been created using the 'keystore_password' environment variable.
+[10/28/18 19:58:49:782 CST] 00000012 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[10/28/18 19:58:49:870 CST] 0000004a com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9443.
+[10/28/18 19:58:49:883 CST] 00000044 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.267 seconds.
+[10/28/18 19:58:50:845 CST] 00000012 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[10/28/18 19:58:56:437 CST] 00000012 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[10/28/18 19:58:56:443 CST] 00000012 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[10/28/18 19:58:56:444 CST] 00000012 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[10/28/18 19:58:58:031 CST] 0000001b com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Starting server configuration update.
+[10/28/18 19:58:58:076 CST] 0000001b com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0018I: The server configuration was not updated. No functional changes were detected.
+[10/28/18 19:58:58:400 CST] 00000044 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application web_war_exploded.
+[10/28/18 19:58:58:615 CST] 00000044 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.wsspi.adaptable.module.UnableToAdaptException: com.ibm.ws.javaee.ddmodel.DDParser$ParseException: CWWKC2272E: An error occurred while parsing the /WEB-INF/web.xml deployment descriptor on line 5. The error message was: ParseError at [row,col]:[5,2]
+Message: The value of attribute "xsi:schemaLocation" associated with an element type "web-app" must not contain the '<' character. com.ibm.ws.app.manager.module.internal.ContextRootUtil 43" at ffdc_18.10.28_19.58.58.0.log
+[10/28/18 19:58:58:790 CST] 00000044 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.wsspi.adaptable.module.UnableToAdaptException: com.ibm.ws.javaee.ddmodel.DDParser$ParseException: CWWKC2272E: An error occurred while parsing the /WEB-INF/web.xml deployment descriptor on line 5. The error message was: ParseError at [row,col]:[5,2]
+Message: The value of attribute "xsi:schemaLocation" associated with an element type "web-app" must not contain the '<' character. com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl 50" at ffdc_18.10.28_19.58.58.1.log
+[10/28/18 19:58:58:876 CST] 00000044 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "java.lang.IllegalStateException: com.ibm.wsspi.adaptable.module.UnableToAdaptException: com.ibm.ws.javaee.ddmodel.DDParser$ParseException: CWWKC2272E: An error occurred while parsing the /WEB-INF/web.xml deployment descriptor on line 5. The error message was: ParseError at [row,col]:[5,2]
+Message: The value of attribute "xsi:schemaLocation" associated with an element type "web-app" must not contain the '<' character. com.ibm.ws.app.manager.internal.statemachine.StartAction 145" at ffdc_18.10.28_19.58.58.2.log
+[10/28/18 19:58:58:879 CST] 00000044 com.ibm.ws.app.manager.AppMessageHelper                      E CWWKZ0002E: An exception occurred while starting the application web_war_exploded. The exception message was: java.lang.IllegalStateException: com.ibm.wsspi.adaptable.module.UnableToAdaptException: com.ibm.ws.javaee.ddmodel.DDParser$ParseException: CWWKC2272E: An error occurred while parsing the /WEB-INF/web.xml deployment descriptor on line 5. The error message was: ParseError at [row,col]:[5,2]
+Message: The value of attribute "xsi:schemaLocation" associated with an element type "web-app" must not contain the '<' character.
+[10/28/18 19:58:58:917 CST] 00000019 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [jsp-2.3, jsonb-1.0, ejbLite-3.2, managedBeans-1.0, beanValidation-2.0, servlet-4.0, jsf-2.3, ssl-1.0, jndi-1.0, cdi-2.0, jdbc-4.2, localConnector-1.0, appSecurity-3.0, jsonp-1.1, appSecurity-2.0, jaxrsClient-2.1, el-3.0, jaxrs-2.1, jpaContainer-2.2, webProfile-8.0, jaspic-1.1, distributedMap-1.0, jpa-2.2, websocket-1.1].
+[10/28/18 19:58:58:918 CST] 00000019 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 81.778 seconds.
+[10/28/18 19:58:58:920 CST] 00000019 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server server1 is ready to run a smarter planet.
+[10/28/18 19:59:36:984 CST] 00000010 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Sunday, October 28, 2018 at 7:59 PM. The server server1 is shutting down.
+[10/28/18 19:59:37:004 CST] 000000b3 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[10/28/18 19:59:37:011 CST] 000000b4 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint-ssl has stopped listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9443.
+[10/28/18 19:59:37:015 CST] 000000b4 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9080.
+[10/28/18 19:59:37:023 CST] 000000b3 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[10/28/18 19:59:37:305 CST] 000000b3 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[10/28/18 19:59:37:324 CST] 000000b3 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[10/28/18 19:59:38:456 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server server1 stopped after 2 minutes, 22.095 seconds.
+********************************************************************************
+product = WebSphere Application Server 18.0.0.3 (wlp-1.0.22.cl180320180905-2337)
+wlp.install.dir = C:/Users/maria/OneDrive/Escritorio/Computadores/2 semestre/Datos 1/Proyecto2/Game of Thrones/wlp-webProfile8-18.0.0.3/wlp/
+java.home = C:\Program Files\Java\jdk1.8.0_181\jre
+java.version = 1.8.0_181
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_181-b13)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 15852@DESKTOP-S1QGVIM
+********************************************************************************
+[10/28/18 19:59:56:707 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server server1 has been launched.
+[10/28/18 19:59:56:780 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/18.0.0.3/lafiles/en.html
+[10/28/18 20:00:03:112 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 11.963 seconds
+[10/28/18 20:00:03:504 CST] 00000019 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[10/28/18 20:00:06:637 CST] 00000012 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[10/28/18 20:00:08:356 CST] 00000012 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[10/28/18 20:00:08:426 CST] 0000001d com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9080.
+[10/28/18 20:00:14:270 CST] 00000014 com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0820A: The default keystore has been created using the 'keystore_password' environment variable.
+[10/28/18 20:00:14:343 CST] 00000012 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[10/28/18 20:00:15:096 CST] 00000031 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.796 seconds.
+[10/28/18 20:00:15:158 CST] 00000012 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[10/28/18 20:00:15:250 CST] 00000028 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9443.
+[10/28/18 20:00:19:015 CST] 00000012 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[10/28/18 20:00:19:019 CST] 00000012 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[10/28/18 20:00:19:022 CST] 00000012 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[10/28/18 20:00:19:844 CST] 0000002a com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application web_war_exploded.
+[10/28/18 20:00:19:917 CST] 0000001c com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Starting server configuration update.
+[10/28/18 20:00:19:958 CST] 0000001c com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0018I: The server configuration was not updated. No functional changes were detected.
+[10/28/18 20:00:20:052 CST] 0000002a com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.wsspi.adaptable.module.UnableToAdaptException: com.ibm.ws.javaee.ddmodel.DDParser$ParseException: CWWKC2272E: An error occurred while parsing the /WEB-INF/web.xml deployment descriptor on line 5. The error message was: ParseError at [row,col]:[5,2]
+Message: The value of attribute "xsi:schemaLocation" associated with an element type "web-app" must not contain the '<' character. com.ibm.ws.app.manager.module.internal.ContextRootUtil 43" at ffdc_18.10.28_20.00.19.0.log
+[10/28/18 20:00:20:268 CST] 0000002a com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.wsspi.adaptable.module.UnableToAdaptException: com.ibm.ws.javaee.ddmodel.DDParser$ParseException: CWWKC2272E: An error occurred while parsing the /WEB-INF/web.xml deployment descriptor on line 5. The error message was: ParseError at [row,col]:[5,2]
+Message: The value of attribute "xsi:schemaLocation" associated with an element type "web-app" must not contain the '<' character. com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl 50" at ffdc_18.10.28_20.00.20.0.log
+[10/28/18 20:00:20:384 CST] 0000002a com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "java.lang.IllegalStateException: com.ibm.wsspi.adaptable.module.UnableToAdaptException: com.ibm.ws.javaee.ddmodel.DDParser$ParseException: CWWKC2272E: An error occurred while parsing the /WEB-INF/web.xml deployment descriptor on line 5. The error message was: ParseError at [row,col]:[5,2]
+Message: The value of attribute "xsi:schemaLocation" associated with an element type "web-app" must not contain the '<' character. com.ibm.ws.app.manager.internal.statemachine.StartAction 145" at ffdc_18.10.28_20.00.20.1.log
+[10/28/18 20:00:20:389 CST] 0000002a com.ibm.ws.app.manager.AppMessageHelper                      E CWWKZ0002E: An exception occurred while starting the application web_war_exploded. The exception message was: java.lang.IllegalStateException: com.ibm.wsspi.adaptable.module.UnableToAdaptException: com.ibm.ws.javaee.ddmodel.DDParser$ParseException: CWWKC2272E: An error occurred while parsing the /WEB-INF/web.xml deployment descriptor on line 5. The error message was: ParseError at [row,col]:[5,2]
+Message: The value of attribute "xsi:schemaLocation" associated with an element type "web-app" must not contain the '<' character.
+[10/28/18 20:00:20:429 CST] 00000019 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [jsp-2.3, jsonb-1.0, ejbLite-3.2, managedBeans-1.0, beanValidation-2.0, servlet-4.0, jsf-2.3, ssl-1.0, jndi-1.0, cdi-2.0, jdbc-4.2, localConnector-1.0, appSecurity-3.0, jsonp-1.1, appSecurity-2.0, jaxrsClient-2.1, el-3.0, jaxrs-2.1, jpaContainer-2.2, webProfile-8.0, jaspic-1.1, distributedMap-1.0, jpa-2.2, websocket-1.1].
+[10/28/18 20:00:20:430 CST] 00000019 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 17.318 seconds.
+[10/28/18 20:00:20:431 CST] 00000019 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server server1 is ready to run a smarter planet.
+[10/28/18 20:03:26:321 CST] 00000010 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Sunday, October 28, 2018 at 8:03 PM. The server server1 is shutting down.
+[10/28/18 20:03:26:459 CST] 0000021a com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[10/28/18 20:03:27:533 CST] 0000021b com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint-ssl has stopped listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9443.
+[10/28/18 20:03:27:536 CST] 0000021b com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9080.
+[10/28/18 20:03:27:539 CST] 0000021a com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[10/28/18 20:03:30:935 CST] 0000021a com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[10/28/18 20:03:31:986 CST] 0000021a ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[10/28/18 20:04:03:890 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server server1 stopped after 4 minutes, 12.743 seconds.
+********************************************************************************
+product = WebSphere Application Server 18.0.0.3 (wlp-1.0.22.cl180320180905-2337)
+wlp.install.dir = C:/Users/maria/OneDrive/Escritorio/Computadores/2 semestre/Datos 1/Proyecto2/Game of Thrones/wlp-webProfile8-18.0.0.3/wlp/
+java.home = C:\Program Files\Java\jdk1.8.0_181\jre
+java.version = 1.8.0_181
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_181-b13)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 16488@DESKTOP-S1QGVIM
+********************************************************************************
+[10/28/18 20:05:05:121 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server server1 has been launched.
+[10/28/18 20:05:05:381 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/18.0.0.3/lafiles/en.html
+[10/28/18 20:05:17:574 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 17.319 seconds
+[10/28/18 20:05:18:211 CST] 0000001b com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[10/28/18 20:05:29:949 CST] 00000012 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[10/28/18 20:05:33:023 CST] 00000012 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[10/28/18 20:05:33:047 CST] 00000024 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9080.
+[10/28/18 20:05:42:287 CST] 00000014 com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0820A: The default keystore has been created using the 'keystore_password' environment variable.
+[10/28/18 20:05:42:452 CST] 00000012 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[10/28/18 20:05:42:525 CST] 0000002b com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9443.
+[10/28/18 20:05:42:557 CST] 00000020 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.209 seconds.
+[10/28/18 20:05:43:428 CST] 00000012 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[10/28/18 20:05:47:305 CST] 00000012 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[10/28/18 20:05:47:307 CST] 00000012 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[10/28/18 20:05:47:309 CST] 00000012 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[10/28/18 20:05:47:616 CST] 00000034 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Starting server configuration update.
+[10/28/18 20:05:47:663 CST] 00000034 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0018I: The server configuration was not updated. No functional changes were detected.
+[10/28/18 20:05:47:949 CST] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application web_war_exploded.
+[10/28/18 20:05:48:122 CST] 0000002c com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.wsspi.adaptable.module.UnableToAdaptException: com.ibm.ws.javaee.ddmodel.DDParser$ParseException: CWWKC2272E: An error occurred while parsing the /WEB-INF/web.xml deployment descriptor on line 5. The error message was: ParseError at [row,col]:[5,2]
+Message: The value of attribute "xsi:schemaLocation" associated with an element type "web-app" must not contain the '<' character. com.ibm.ws.app.manager.module.internal.ContextRootUtil 43" at ffdc_18.10.28_20.05.48.0.log
+[10/28/18 20:05:48:393 CST] 0000002c com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "com.ibm.wsspi.adaptable.module.UnableToAdaptException: com.ibm.ws.javaee.ddmodel.DDParser$ParseException: CWWKC2272E: An error occurred while parsing the /WEB-INF/web.xml deployment descriptor on line 5. The error message was: ParseError at [row,col]:[5,2]
+Message: The value of attribute "xsi:schemaLocation" associated with an element type "web-app" must not contain the '<' character. com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl 50" at ffdc_18.10.28_20.05.48.1.log
+[10/28/18 20:05:48:680 CST] 0000002c com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "java.lang.IllegalStateException: com.ibm.wsspi.adaptable.module.UnableToAdaptException: com.ibm.ws.javaee.ddmodel.DDParser$ParseException: CWWKC2272E: An error occurred while parsing the /WEB-INF/web.xml deployment descriptor on line 5. The error message was: ParseError at [row,col]:[5,2]
+Message: The value of attribute "xsi:schemaLocation" associated with an element type "web-app" must not contain the '<' character. com.ibm.ws.app.manager.internal.statemachine.StartAction 145" at ffdc_18.10.28_20.05.48.2.log
+[10/28/18 20:05:48:701 CST] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      E CWWKZ0002E: An exception occurred while starting the application web_war_exploded. The exception message was: java.lang.IllegalStateException: com.ibm.wsspi.adaptable.module.UnableToAdaptException: com.ibm.ws.javaee.ddmodel.DDParser$ParseException: CWWKC2272E: An error occurred while parsing the /WEB-INF/web.xml deployment descriptor on line 5. The error message was: ParseError at [row,col]:[5,2]
+Message: The value of attribute "xsi:schemaLocation" associated with an element type "web-app" must not contain the '<' character.
+[10/28/18 20:05:48:730 CST] 0000001b com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [jsp-2.3, jsonb-1.0, ejbLite-3.2, managedBeans-1.0, beanValidation-2.0, servlet-4.0, jsf-2.3, ssl-1.0, jndi-1.0, cdi-2.0, jdbc-4.2, localConnector-1.0, appSecurity-3.0, jsonp-1.1, appSecurity-2.0, jaxrsClient-2.1, el-3.0, jaxrs-2.1, jpaContainer-2.2, webProfile-8.0, jaspic-1.1, distributedMap-1.0, jpa-2.2, websocket-1.1].
+[10/28/18 20:05:48:732 CST] 0000001b com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 31.768 seconds.
+[10/28/18 20:05:48:732 CST] 0000001b com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server server1 is ready to run a smarter planet.
+[10/28/18 20:06:36:194 CST] 00000010 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Sunday, October 28, 2018 at 8:06 PM. The server server1 is shutting down.
+[10/28/18 20:06:36:217 CST] 000000c8 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[10/28/18 20:06:36:236 CST] 000000c9 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint-ssl has stopped listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9443.
+[10/28/18 20:06:36:241 CST] 000000c9 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9080.
+[10/28/18 20:06:36:267 CST] 000000c8 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[10/28/18 20:06:36:692 CST] 000000c8 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[10/28/18 20:06:36:718 CST] 000000c8 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[10/28/18 20:06:39:177 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server server1 stopped after 1 minutes, 39.535 seconds.
+********************************************************************************
+product = WebSphere Application Server 18.0.0.3 (wlp-1.0.22.cl180320180905-2337)
+wlp.install.dir = C:/Users/maria/OneDrive/Escritorio/Computadores/2 semestre/Datos 1/Proyecto2/Game of Thrones/wlp-webProfile8-18.0.0.3/wlp/
+java.home = C:\Program Files\Java\jdk1.8.0_181\jre
+java.version = 1.8.0_181
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_181-b13)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 11072@DESKTOP-S1QGVIM
+********************************************************************************
+[10/28/18 20:09:12:647 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server server1 has been launched.
+[10/28/18 20:09:12:706 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/18.0.0.3/lafiles/en.html
+[10/28/18 20:09:17:580 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 10.118 seconds
+[10/28/18 20:09:18:173 CST] 0000001a com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[10/28/18 20:09:50:079 CST] 00000012 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[10/28/18 20:09:52:695 CST] 00000012 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[10/28/18 20:09:52:798 CST] 00000019 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9080.
+[10/28/18 20:10:05:637 CST] 00000014 com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0820A: The default keystore has been created using the 'keystore_password' environment variable.
+[10/28/18 20:10:05:898 CST] 00000012 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[10/28/18 20:10:06:017 CST] 0000001b com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9443.
+[10/28/18 20:10:06:645 CST] 0000001e com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.869 seconds.
+[10/28/18 20:10:07:228 CST] 00000012 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[10/28/18 20:10:18:711 CST] 00000012 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[10/28/18 20:10:18:740 CST] 00000012 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[10/28/18 20:10:18:743 CST] 00000012 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[10/28/18 20:10:19:102 CST] 00000033 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Starting server configuration update.
+[10/28/18 20:10:19:132 CST] 00000033 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0018I: The server configuration was not updated. No functional changes were detected.
+[10/28/18 20:10:21:523 CST] 00000032 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application web_war_exploded.
+[10/28/18 20:10:32:064 CST] 00000032 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[10/28/18 20:10:33:078 CST] 00000032 org.jboss.weld.Version                                       I WELD-000900: 3.0.5 (Final)
+[10/28/18 20:10:35:852 CST] 00000032 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: web_war_exploded.
+[10/28/18 20:10:35:854 CST] 00000032 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module web_war_exploded has been bound to default_host.
+[10/28/18 20:10:35:855 CST] 00000032 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/web_war_exploded/
+[10/28/18 20:10:36:024 CST] 00000032 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application web_war_exploded started in 14.501 seconds.
+[10/28/18 20:10:36:060 CST] 0000001a com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [jsp-2.3, jsonb-1.0, ejbLite-3.2, managedBeans-1.0, beanValidation-2.0, servlet-4.0, jsf-2.3, ssl-1.0, jndi-1.0, cdi-2.0, jdbc-4.2, localConnector-1.0, appSecurity-3.0, jsonp-1.1, appSecurity-2.0, jaxrsClient-2.1, el-3.0, jaxrs-2.1, jpaContainer-2.2, webProfile-8.0, jaspic-1.1, distributedMap-1.0, jpa-2.2, websocket-1.1].
+[10/28/18 20:10:36:061 CST] 0000001a com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 78.418 seconds.
+[10/28/18 20:10:36:062 CST] 0000001a com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server server1 is ready to run a smarter planet.
+[10/28/18 20:10:36:631 CST] 0000001b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/web_war_exploded
+[10/28/18 20:10:36:663 CST] 0000001b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/28/18 20:10:37:342 CST] 0000001b org.hibernate.validator.internal.util.Version                I HV000001: Hibernate Validator 6.0.12.Final
+[10/28/18 20:10:45:386 CST] 0000001b com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[10/28/18 20:10:46:179 CST] 0000001b org.apache.myfaces.ee.MyFacesContainerInitializer            I Using org.apache.myfaces.ee.MyFacesContainerInitializer
+[10/28/18 20:10:48:408 CST] 0000001b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [web_war_exploded] [/web_war_exploded] [Prueba]: Initialization successful.
+[10/28/18 20:10:48:765 CST] 0000001c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\maria\OneDrive\Escritorio\Computadores\2 semestre\Datos 1\Proyecto2\Game of Thrones\wlp-webProfile8-18.0.0.3\wlp\usr\servers\server1\logs\state\plugin-cfg.xml.
+[10/28/18 20:10:49:014 CST] 00000033 com.ibm.ws.webcontainer.extension                            W SRVE0190E: File not found: /web_war_exploded
+[10/28/18 20:11:09:603 CST] 0000001b com.ibm.ws.webcontainer.extension                            W SRVE0190E: File not found: /web_war_exploded
+[10/28/18 20:11:52:016 CST] 0000002f SystemOut                                                    O a3
+[10/28/18 20:11:52:017 CST] 0000002f SystemOut                                                    O a1
+[10/28/18 20:12:02:581 CST] 00000010 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Sunday, October 28, 2018 at 8:12 PM. The server server1 is shutting down.
+[10/28/18 20:12:02:604 CST] 00000085 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[10/28/18 20:12:02:621 CST] 00000086 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint-ssl has stopped listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9443.
+[10/28/18 20:12:02:631 CST] 00000086 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9080.
+[10/28/18 20:12:02:632 CST] 00000086 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/web_war_exploded/
+[10/28/18 20:12:02:637 CST] 00000085 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[10/28/18 20:12:02:702 CST] 0000001c com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [web_war_exploded] [/web_war_exploded] [Prueba]: Destroy successful.
+[10/28/18 20:12:03:046 CST] 0000001c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application web_war_exploded has stopped successfully.
+[10/28/18 20:12:03:723 CST] 00000085 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[10/28/18 20:12:03:762 CST] 00000085 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[10/28/18 20:12:07:901 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server server1 stopped after 3 minutes, 0.44 seconds.

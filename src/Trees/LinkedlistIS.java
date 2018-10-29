@@ -7,6 +7,7 @@ import javax.xml.bind.annotation.XmlSeeAlso;
 @XmlSeeAlso({Node.class, ServerDragons.class, SimpleList.class})
 public class LinkedlistIS<T>
 {
+    LinkedlistIS dragons = new LinkedlistIS();
     public Node head, sorted, root;
     int size;
 
@@ -16,13 +17,14 @@ public class LinkedlistIS<T>
         this.size=0;
     }
 
-    public void validate_parent(LinkedlistIS dragons){
+    public LinkedlistIS validate_parent(LinkedlistIS dragons){
         ServerDragons server = new ServerDragons();
         for (int i = 0; i < dragons.getSize(); i++) {
             if (dragons.getNode(i).getParent()==null){
                 dragons.getNode(i).setParent(server.setparent());
             }
         }
+        return dragons;
     }
 
 
@@ -144,6 +146,8 @@ public class LinkedlistIS<T>
         }
     }
 
+
+
     public void quickSort(Node node){
         // Find last node
         Node head = lastNode(node);
@@ -226,7 +230,26 @@ public class LinkedlistIS<T>
         return height(N.getLeft()) - height(N.getRight());
     }
 
-    Node insert(Node node, int speed, int age, int resistance, String classe, String name, Node parent) {
+
+    public LinkedlistIS insertarAux(LinkedlistIS dragon) {
+        for (int i = 0; i == dragon.size; i++) {
+            insert(dragon.root, dragon.getNode(i).getSpeed(), dragon.getNode(i).getAge(),
+                    dragon.getNode(i).getResistance(), dragon.getNode(i).getName(), dragon.getNode(i).getClasse(),dragon.getNode(i).getParent());
+        }
+        return preorderTraverseTree(dragon.root);
+    }
+
+    public LinkedlistIS preorderTraverseTree(Node focusNode) {
+        if (focusNode != null) {
+            dragons.push(focusNode);
+            preorderTraverseTree(focusNode.getLeft());
+            preorderTraverseTree(focusNode.getRight());
+        }
+        return dragons;
+    }
+
+    //AVL
+    public Node insert(Node node, int speed, int age, int resistance, String classe, String name, Node parent) {
 
         /* 1.  Perform the normal BST insertion */
         if (node == null)
@@ -276,13 +299,7 @@ public class LinkedlistIS<T>
     // A utility function to print preorder traversal
     // of the tree.
     // The function also prints height of every node
-    void preOrder(Node node) {
-        if (node != null) {
-            System.out.print(node.getAge() + " ");
-            preOrder(node.getLeft());
-            preOrder(node.getRight());
-        }
-    }
+
 
 
 

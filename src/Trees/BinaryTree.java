@@ -1,7 +1,10 @@
 package Trees;
 
+import sun.awt.image.ImageWatched;
+
 public class BinaryTree {
     Node root;
+    LinkedlistIS dragons = new LinkedlistIS();
 
 
     private void addNode(Node newNode) {
@@ -28,18 +31,21 @@ public class BinaryTree {
         }
     }
 
-    public void add(LinkedlistIS list, BinaryTree tree){
+    public LinkedlistIS add(LinkedlistIS list, BinaryTree tree){
         for (int i = 0; i < list.getSize(); i++) {
             tree.addNode(list.getNode(i));
         }
+        return preorderTraverseTree(tree.root);
     }
 
-    public void preorderTraverseTree(Node focusNode) {
+    public LinkedlistIS preorderTraverseTree(Node focusNode) {
         if (focusNode != null) {
+            dragons.push(focusNode);
             System.out.println(focusNode);
             preorderTraverseTree(focusNode.getLeft());
             preorderTraverseTree(focusNode.getRight());
         }
+        return dragons;
     }
 
 

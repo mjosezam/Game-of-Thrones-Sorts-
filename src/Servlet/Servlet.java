@@ -1,6 +1,7 @@
 package Servlet;
 
 
+import Trees.BinaryTree;
 import Trees.LinkedlistIS;
 import Trees.ServerDragons;
 
@@ -23,6 +24,7 @@ public class Servlet extends HttpServlet {
         LinkedlistIS sendList = Serializer.deserializerString(dragonList);
         System.out.println(sendList.head.getName());
         if (method != null) {
+            sendList = sendList.validate_parent(sendList);
             switch (method) {
                 case "Generate":
                     logicfactory.generate();
@@ -32,21 +34,22 @@ public class Servlet extends HttpServlet {
                     sendList.insertionSort(sendList.head);
                     System.out.println(sendList.head.getName());
                     break;
-                //case "quicksort":
-                //  sendList.quickSort();
-                //break;
+                case "quicksort":
+                sendList.quickSort(sendList.head);
+                break;
 
-                //case "selection":
-                //  sendList.selectionSort();
-                //break;
+                case "selection":
+                sendList.selectionSort(sendList.head);
+                break;
 
-                //case "btree":
-                //  BTree sendList = new BTree(sendList);
-                //break;
+                case "BinaryTree":
+                    BinaryTree tree = new BinaryTree();
+                    tree.add(sendList, tree);
+                break;
 
-                //case "avl":
-                //  AVL sendList = new AVL(sendList);
-                //break;
+                case "avl":
+                sendList=sendList.insertarAux(sendList);
+                break;
             }
             send_typed_response(request,response, Serializer.serializerString(sendList));
         }

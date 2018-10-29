@@ -11,7 +11,7 @@ public class Method {
         LinkedlistIS newList= null;
         switch(x){
             case 0:
-                newList= request.Method("insertion",dragonList);
+                newList= request.Method("selection",dragonList);
                 x++;
                 break;
             case 1:
