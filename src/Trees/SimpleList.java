@@ -3,9 +3,6 @@ package Trees;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
-/**
- *
- */
 public class SimpleList {
     DataNode head;
     int size;

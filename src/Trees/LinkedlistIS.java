@@ -17,11 +17,6 @@ public class LinkedlistIS<T>
         this.size=0;
     }
 
-    /**
-     *
-     * @param dragons
-     * @return dragon
-     */
     public LinkedlistIS validate_parent(LinkedlistIS dragons){
         ServerDragons server = new ServerDragons();
         for (int i = 0; i < dragons.getSize(); i++) {
@@ -33,11 +28,6 @@ public class LinkedlistIS<T>
     }
 
 
-    /**
-     *
-     * @param index
-     * @return
-     */
     public Node<T> getNode(int index){
         Node<T> current = head;
         if (index < size) {
@@ -68,11 +58,6 @@ public class LinkedlistIS<T>
 
 
     // function to sort a singly linked list using insertion sort
-
-    /**
-     *
-     * @param headref
-     */
     public void insertionSort(Node headref) {
         // Initialize sorted linked list
         sorted = null;
@@ -92,10 +77,6 @@ public class LinkedlistIS<T>
         head = sorted;
     }
 
-    /**
-     *
-     * @param newnode
-     */
     void sortedInsert(Node newnode){
         /* Special case for the head end */
         if (sorted == null || (int) sorted.getSpeed() >= (int) newnode.getSpeed())
@@ -116,10 +97,6 @@ public class LinkedlistIS<T>
         }
     }
 
-    /**
-     *
-     * @param head
-     */
     void printlist(Node head){
         while (head != null)
         {
@@ -161,11 +138,6 @@ public class LinkedlistIS<T>
         return i;
     }
 
-    /**
-     *
-     * @param l
-     * @param h
-     */
     void _quickSort(Node l, Node h) {
         if(h!=null && l!=h && l!=h.getNext()){
             Node temp = partition(l,h);
@@ -175,10 +147,7 @@ public class LinkedlistIS<T>
     }
 
 
-    /**
-     *
-     * @param node
-     */
+
     public void quickSort(Node node){
         // Find last node
         Node head = lastNode(node);
@@ -213,12 +182,6 @@ public class LinkedlistIS<T>
     }
 
 
-    /**
-     *
-     * @param a
-     * @param b
-     * @return
-     */
     int max(int a, int b) {
         return (a > b) ? a : b;
     }
@@ -276,11 +239,6 @@ public class LinkedlistIS<T>
         return preorderTraverseTree(dragon.root);
     }
 
-    /**
-     *
-     * @param focusNode
-     * @return dragon
-     */
     public LinkedlistIS preorderTraverseTree(Node focusNode) {
         if (focusNode != null) {
             dragons.push(focusNode);
@@ -291,18 +249,6 @@ public class LinkedlistIS<T>
     }
 
     //AVL
-
-    /**
-     *
-     * @param node
-     * @param speed
-     * @param age
-     * @param resistance
-     * @param classe
-     * @param name
-     * @param parent
-     * @return node
-     */
     public Node insert(Node node, int speed, int age, int resistance, String classe, String name, Node parent) {
 
         /* 1.  Perform the normal BST insertion */

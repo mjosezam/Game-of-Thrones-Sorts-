@@ -35,11 +35,6 @@ public class BTree<T extends Comparable<T>> implements ITree<T> {
     public BTree() { }
 
 
-    /**
-     *
-     * @param value to add to the tree.
-     * @return
-     */
     public boolean add(T value) {
         if (root == null) {
             root = new Node<T>(null, maxKeySize, maxChildrenSize);
@@ -93,10 +88,6 @@ public class BTree<T extends Comparable<T>> implements ITree<T> {
     }
 
 
-    /**
-     *
-     * @param nodeToSplit
-     */
     private void split(Node<T> nodeToSplit) {
         Node<T> node = nodeToSplit;
         int numberOfKeys = node.numberOfKeys();
@@ -147,11 +138,6 @@ public class BTree<T extends Comparable<T>> implements ITree<T> {
     }
 
 
-    /**
-     *
-     * @param value to remove from the tree.
-     * @return
-     */
     public T remove(T value) {
         T removed = null;
         Node<T> node = this.getNode(value);
@@ -202,11 +188,6 @@ public class BTree<T extends Comparable<T>> implements ITree<T> {
     }
 
 
-    /**
-     *
-     * @param node
-     * @return
-     */
     private T removeGreatestValue(Node<T> node) {
         T value = null;
         if (node.numberOfKeys() > 0) {
@@ -226,7 +207,6 @@ public class BTree<T extends Comparable<T>> implements ITree<T> {
         Node<T> node = getNode(value);
         return (node != null);
     }
-
 
 
     private Node<T> getNode(T value) {

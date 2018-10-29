@@ -12,11 +12,8 @@ import java.io.StringWriter;
 
 public class Serializer {
 
-    /**
-     * cambio de linked list a xml
-     * @param dragon
-     * @return xml
-     */
+
+
     public static String serializerString(LinkedlistIS dragon){
         try{
             JAXBContext jaxbContext= JAXBContext.newInstance(Trees.LinkedlistIS.class);
@@ -33,12 +30,6 @@ public class Serializer {
         }
     }
 
-    /**
-     * cambio de xml a linkedlistIs
-     * @param xml
-     * @return LinkedlistIS
-     * @throws IOException
-     */
     public static LinkedlistIS deserializerString(String xml) throws IOException {
         JAXBContext jaxbContext= null;
         try {

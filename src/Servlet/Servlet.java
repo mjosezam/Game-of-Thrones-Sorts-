@@ -18,14 +18,6 @@ import java.io.OutputStream;
 @WebServlet(name = "Prueba",urlPatterns ={"/Prueba"})
 public class Servlet extends HttpServlet {
     ServerDragons logicfactory = new ServerDragons();
-
-    /**
-     * postea y responde al cliente
-     * @param request
-     * @param response
-     * @throws ServletException
-     * @throws IOException
-     */
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String method = request.getParameter("method");
         String dragonList = request.getParameter("dragonList");
@@ -65,12 +57,6 @@ public class Servlet extends HttpServlet {
     }
 
 
-    /**
-     * escoge por donde enviar la respueta
-     * @param request
-     * @param response
-     * @param data
-     */
     private void send_typed_response (HttpServletRequest request,
                                       HttpServletResponse response,
                                       Object data){
@@ -84,12 +70,6 @@ public class Servlet extends HttpServlet {
         else
             send_xml(response, data);
     }
-
-    /**
-     * envia por xml
-     * @param response
-     * @param data
-     */
     private void send_xml (HttpServletResponse response, Object data){
         try {
             XMLEncoder enc = new XMLEncoder(response.getOutputStream());
@@ -99,12 +79,6 @@ public class Servlet extends HttpServlet {
             throw new HTTPException(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
         }
     }
-
-    /**
-     * envia por html
-     * @param response
-     * @param data
-     */
     private void send_html (HttpServletResponse response, Object data){
         String html_start =
                 "<html><head><title>send_html response</title></head><body><div>";
@@ -113,11 +87,6 @@ public class Servlet extends HttpServlet {
         send_plain(response, html_doc);
     }
 
-    /**
-     * envia por plain
-     * @param response
-     * @param data
-     */
     private void send_plain (HttpServletResponse response, Object data){
         try {
             OutputStream out = response.getOutputStream();
@@ -128,13 +97,6 @@ public class Servlet extends HttpServlet {
         }
     }
 
-    /**
-     * Realiza el get lo que solicite el cliente
-     * @param request
-     * @param response
-     * @throws ServletException
-     * @throws IOException
-     */
     protected void doGet (HttpServletRequest request, HttpServletResponse response) throws
             ServletException, IOException {
         String dragon = request.getParameter("dragon");
