@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="wlp">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/library/wlp-webProfile8-18.0.0.3/wlp" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
