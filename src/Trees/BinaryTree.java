@@ -7,6 +7,10 @@ public class BinaryTree {
     LinkedlistIS dragons = new LinkedlistIS();
 
 
+    /**
+     *
+     * @param newNode
+     */
     private void addNode(Node newNode) {
         if (root == null) {
             root = newNode;
@@ -31,6 +35,12 @@ public class BinaryTree {
         }
     }
 
+    /**
+     *
+     * @param list
+     * @param tree
+     * @return
+     */
     public LinkedlistIS add(LinkedlistIS list, BinaryTree tree){
         for (int i = 0; i < list.getSize(); i++) {
             tree.addNode(list.getNode(i));
@@ -38,6 +48,11 @@ public class BinaryTree {
         return preorderTraverseTree(tree.root);
     }
 
+    /**
+     * 
+     * @param focusNode
+     * @return
+     */
     public LinkedlistIS preorderTraverseTree(Node focusNode) {
         if (focusNode != null) {
             dragons.push(focusNode);

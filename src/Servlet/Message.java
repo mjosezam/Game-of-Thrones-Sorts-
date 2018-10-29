@@ -17,6 +17,10 @@ public class Message {
     public void Message(){
     }
 
+    /**
+     * Realiza la conexion al servidor posteando lo que necesita que ayude
+     * @return LinkedListIs oleada de dragones
+     */
     public LinkedlistIS Generate(){
         try {
             HttpURLConnection conn = null;
@@ -32,6 +36,13 @@ public class Message {
 
         return null;
     }
+
+    /**
+     *
+     * @param message
+     * @param dragonList
+     * @return Linked list oleada ordenada
+     */
     public LinkedlistIS Method(String message, LinkedlistIS dragonList){
         try {
             HttpURLConnection conn = null;
@@ -49,6 +60,11 @@ public class Message {
         return null;
     }
 
+    /**
+     * Envia los datos al servidor
+     * @param request
+     * @param conn
+     */
     private void send_requests(String request, HttpURLConnection conn) {
         try {
 
@@ -62,6 +78,12 @@ public class Message {
         catch(NullPointerException e) { System.err.println(e); }
     }
 
+    /**
+     * Realiza conexion con el servidor
+     * @param url_string
+     * @param verb
+     * @return la conexion
+     */
     private HttpURLConnection get_connection(String url_string, String verb) {
         HttpURLConnection conn = null;
         try {
@@ -75,6 +97,12 @@ public class Message {
         catch(IOException e) { System.err.println(e); }
         return conn;
     }
+
+    /**
+     * Toma la respuesta del servidor y la envia para enviarselo al cliente
+     * @param conn
+     * @return respuesta el servidor
+     */
     private String get_response(HttpURLConnection conn) {
         try {
             String xml = "";

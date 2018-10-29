@@ -10,6 +10,15 @@ public class Node<T> {
     private int resistance,speed, age;
 
 
+    /**
+     *
+     * @param speed
+     * @param age
+     * @param resistance
+     * @param classe
+     * @param name
+     * @param parent
+     */
     public Node(int speed,int age,int resistance,String classe, String name, Node parent) {
         this.age = age;
         this.speed = speed;

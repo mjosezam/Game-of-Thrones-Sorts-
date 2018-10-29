@@ -12,8 +12,10 @@ public class ServerDragons<T> {
     java.util.Random random = new java.util.Random();
 
 
-
-
+    /**
+     *
+     * @return available_classe[ran_classe]
+     */
     public String random_classe() {
         String[] available_classe = {"Comandante", "Infantería", "Capitanes"};
         int ran_classe = random.nextInt(available_classe.length);
@@ -37,6 +39,10 @@ public class ServerDragons<T> {
         return resistance;
     }
 
+    /**
+     *
+     * @return age
+     */
     public int random_age(){
         int age = (int) (1 + (Math.random() * (1000 - 1)));
         if (in(age, ages)){
@@ -48,6 +54,12 @@ public class ServerDragons<T> {
         return age;
     }
 
+    /**
+     *
+     * @param tosearch
+     * @param list
+     * @return boolean
+     */
     public boolean in(Object tosearch, SimpleList list){
         if (list.getSize()==0){
             return false;
@@ -62,7 +74,10 @@ public class ServerDragons<T> {
     }
 
 
-
+    /**
+     *
+     * @return parentNode
+     */
     public Node setparent(){
         int parent = (int) (1 + (Math.random() * (tmp - 1)));
         if (parent==0){
@@ -81,6 +96,9 @@ public class ServerDragons<T> {
     }
 
 
+    /**
+     * genera la lista de dragones
+     */
     public void generate(){
         int index = (int) (1 + (Math.random() * (27 - 1)));
         char [] waves = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k','l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};

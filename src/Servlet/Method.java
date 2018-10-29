@@ -6,6 +6,11 @@ import Trees.Node;
 public class Method {
     public static int x=0;
 
+    /**
+     * selecciona el metodo a utilizar para ordenar y envia la lista de dragones y el metodo para que luego sea enviado al servidor
+     * @param dragonList
+     * @return linkedlistIs
+     */
     public LinkedlistIS method(LinkedlistIS dragonList){
         Message request= new Message();
         LinkedlistIS newList= null;
