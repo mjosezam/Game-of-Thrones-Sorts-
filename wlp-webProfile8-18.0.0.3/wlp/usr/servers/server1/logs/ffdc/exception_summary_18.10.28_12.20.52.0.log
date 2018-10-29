@@ -1,0 +1,8 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      2   10/28/18 12:20:51:790 CST   10/28/18 12:20:52:920 CST com.ibm.websphere.servlet.error.ServletErrorReport com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter 82
+                                                                            - C:\Users\maria\OneDrive\Escritorio\Computadores\2 semestre\Datos 1\Proyecto2\wlp-webProfile8-18.0.0.3\wlp\usr\servers\server1\logs\ffdc\ffdc_18.10.28_12.20.51.0.log
+     1      1   10/28/18 12:20:52:692 CST   10/28/18 12:20:52:692 CST com.ibm.websphere.servlet.error.ServletErrorReport com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144
+                                                                            - C:\Users\maria\OneDrive\Escritorio\Computadores\2 semestre\Datos 1\Proyecto2\wlp-webProfile8-18.0.0.3\wlp\usr\servers\server1\logs\ffdc\ffdc_18.10.28_12.20.52.0.log
+------+------+---------------------------+---------------------------+---------------------------
